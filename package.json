@@ -1,0 +1,32 @@
+{
+  "name": "colorful-for-migraine",
+  "displayName": "Colorful for Migraine",
+  "description": "When you want a colorful theme but can't handle bright things due to migraine",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Colorful for Migraine",
+        "uiTheme": "vs-dark",
+        "path": "./themes/colorful-for-migraine-color-theme.json"
+      }
+    ]
+  },
+  "icon": "images/colorful-migraine-logo.png",
+  "galleryBanner": {
+    "color": "#6D487D",
+    "theme": "dark"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "homepage": "https://github.com/cscov/colorful-for-migraine/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cscov/colorful-for-migraine.git"
+  }
+}
